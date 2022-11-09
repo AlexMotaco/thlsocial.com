@@ -1,0 +1,6 @@
+<!-- AlleyTrak Code -->
+<script src="https://alleytrak.com/app/api/embed.js" data-clientID="4475" type="text/javascript"></script>
+<div id="AlleyTrak-Embed"></div>
+
+Copy and paste this code into your website before the closing <body> tag. To call and open AlleyTrak, add a class or href value of "AT-Reservation" to any button-
+like element.
