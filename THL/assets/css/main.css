@@ -1180,11 +1180,11 @@ a {
   width: 100%;
   border: none;
   padding: 12px;
-  font-size: 30px;
+  font-size: 20px;
 }
 @media (max-width: 1200px) {
   .form .btn.btn-red {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 @media (max-width: 1000px) {
