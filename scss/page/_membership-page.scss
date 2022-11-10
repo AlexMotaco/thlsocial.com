@@ -1,0 +1,257 @@
+.membership-section{
+
+    .side-rotated-bar{
+        padding: 10px 0;
+        h1{
+            font-size: 147px;
+
+            @media (max-width:1300px) {
+                font-size: 130px;
+            }
+            
+            @media (max-width:1200px) {
+                font-size: 110px;
+            }
+
+            @media (max-width:1100px) {
+                font-size: 100px;
+            }
+            
+            @media (max-width:1000px) {
+                font-size: 90px;
+            }
+            @media (max-width:900px) {
+                font-size: 85px;
+            }
+
+            @media (max-width:850px) {
+                font-size: 80px;
+            }
+            
+            @media (max-width:800px) {
+                font-size: 75px;
+            }
+        }
+    }
+    
+    &-text{
+        align-self: center;
+        max-width: 900px;
+        width: 100%;
+        @extend .text-secondary;
+        font-style: italic;
+
+        @media (max-width:1300px) {
+            font-size: 20px;
+        }
+        
+        @media (max-width:1000px) {
+            font-size: 18px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width:850px) {
+            font-size: 17px;
+        }
+       
+        @media (max-width:700px) {
+            font-size: 15px;
+            padding-right: 5px;
+        }
+        
+        p{
+            font-weight: 500 !important;
+            font-style: normal;
+            font-size: inherit;
+
+
+            &:nth-of-type(1){
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                @media (max-width:1100px) {
+                    margin: 20px 0 ;
+                }
+
+                @media (max-width:700px) {
+                    margin: 15px 0 ;
+                }
+            }
+            
+            &:nth-of-type(2){
+                line-height: 50px;
+
+                @media (max-width:1200px) {
+                    line-height: 40px;
+                }
+
+                @media (max-width:1100px) {
+                    line-height: 30px;
+                }
+
+                @media (max-width:700px) {
+                    line-height: 20px;
+                }
+            }
+        }
+        
+        h3,h2{
+            font-size: inherit;
+            font-weight: 800;
+        }
+
+        h2{
+            margin-bottom: 20px;
+
+            @media (max-width:700px) {
+                margin-bottom: 15px;
+            }
+        }
+
+
+    }
+}
+
+.membership-cards{
+
+    &-section{
+        .container{
+            max-width: 1395px;
+        }
+    }
+
+    &-box{
+
+        .primary-cards-grid{
+            gap: 80px;
+
+            @media (max-width:1400px) {
+                gap: 40px;
+            }
+           
+            @media (max-width:792px) {
+                flex-wrap: nowrap ;
+            }
+            
+            @media (max-width:750px) {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .primary-card{
+            max-width: 100%;
+            padding: 90px 40px;
+
+            @media (max-width:1300px) {
+                padding: 80px 30px;
+            }
+            
+            @media (max-width:950px) {
+                padding: 70px 20px;
+            }
+            
+            @media (max-width:800px) {
+                padding: 50px 20px;
+            }
+
+            @media (max-width:750px) {
+                max-width: 380px;
+            }
+
+            &-text{
+                h1{
+                    @extend .heading-primary;
+                    font-size: 120px;
+                    color: var(--color-yellow);
+                    text-align: center;
+
+                    @media (max-width:1405px) {
+                        font-size: 100px;
+                    }
+                    
+                    @media (max-width:1200px) {
+                        font-size: 80px;
+                    }
+
+                    @media (max-width:1100px) {
+                        font-size: 70px;
+                    }
+
+                    @media (max-width:1000px) {
+                        font-size: 64px;
+                    }
+
+                    @media (max-width:850px) {
+                        font-size: 58px;
+                    }
+                    
+                    @media (max-width:750px) {
+                        font-size: 50px;
+                    }
+
+                }
+
+                h3,p,a{
+                    @extend .text-secondary;
+                    font-size: 26px;
+
+                    @media (max-width:1300px) {
+                        font-size: 23px;
+                    }
+
+                    @media (max-width:1200px) {
+                        font-size: 20px;
+                    }
+
+                    @media (max-width:1000px) {
+                        font-size: 18px;
+                    }
+
+                    @media (max-width:900px) {
+                        font-size: 16px;
+                    }
+
+                    @media (max-width:850px) {
+                        font-size: 15px;
+                    }
+                }
+
+                h3{
+                    margin-top: 90px;
+
+                    @media (max-width:1300px) {
+                        margin-top: 70px;
+                    }
+                    
+                    @media (max-width:1100px) {
+                        margin-top: 50px;
+                    }
+
+                    @media (max-width:850px) {
+                        margin-top: 40px;
+                    }
+                }
+
+                p{
+                    
+                    @media (max-width:850px) {
+                        margin-top: 20px;
+                    }
+                }
+
+                a{
+                    @media (max-width:1100px) {
+                        margin-top: 30px;
+                    }
+
+                    @media (max-width:850px) {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
