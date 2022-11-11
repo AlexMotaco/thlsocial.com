@@ -1,0 +1,202 @@
+.signup-form-section{
+    background-image: url(/assets/img/signup-form-section-bg-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 20px;
+
+    @media (max-width:1380px) {
+        padding: 120px 20px;
+    }
+
+    @media (max-width:1100px) {
+        padding: 100px 20px;
+    }
+
+    @media (max-width:900px) {
+        padding: 90px 20px;
+    }
+    
+    @media (max-width:700px) {
+        padding: 150px 0px;
+    }
+   
+    @media (max-width:420px) {
+        padding: 180px 0px;
+    }
+}
+
+.signup-form-box{
+    background-color: var(--color-black);
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius:  40px;
+    text-align: center;
+    padding: 60px;
+
+    @media (max-width:1380px) {
+        max-width: 680px;
+    }
+
+    @media (max-width:1200px) {
+        max-width: 580px;
+    }
+
+    @media (max-width:1100px) {
+        max-width: 500px;
+        padding: 40px;
+    }
+
+    @media (max-width:1000px) {
+        max-width: 420px;
+    }
+
+    @media (max-width:850px) {
+        font-size: 30px;
+    }
+
+    @media (max-width:420px) {
+        border-radius: 0;
+        padding: 30px;
+    }
+
+    h2{
+        @extend .heading-primary;
+        font-size: 66px;
+
+        @media (max-width:1380px) {
+            font-size: 58px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 52px;
+        }
+
+        @media (max-width:1100px) {
+            font-size: 46px;
+        }
+
+        @media (max-width:1000px) {
+            font-size: 38px;
+        }
+
+        @media (max-width:850px) {
+            font-size: 30px;
+        }
+    }
+    
+    p{
+        @extend .text-secondary;
+        margin-top: 50px;
+
+        @media (max-width:1380px) {
+            font-size: 22px;
+        }
+
+        @media (max-width:1200px) {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width:1000px) {
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        
+        @media (max-width:850px) {
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.form{
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 50px;
+
+    @media (max-width:1200px) {
+        max-width: 340px;
+    }
+    
+    @media (max-width:1000px) {
+        gap: 10px;
+        max-width: 280px;
+        margin-top: 35px;
+    }
+
+    @media (max-width:850px) {
+        margin-top: 20px;
+    }
+
+    @media (max-width:420px) {
+        max-width: 240px;
+    }
+
+    .input-field{
+        input,
+        input::placeholder{
+            width: 100%;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            @extend .text-secondary;
+            font-weight: 500;
+            font-family: var(--font-sf-pro-display);
+            color: var(--color-white);
+
+            @media (max-width:1200px) {
+                font-size: 20px;
+            }
+    
+            @media (max-width:1000px) {
+                font-size: 18px;
+            }
+    
+            @media (max-width:850px) {
+                font-size: 17px;
+            }
+        }
+        
+        input{
+            background-color: var(--color-dar-grey);
+            padding: 18px 20px;
+    
+            @media (max-width:1000px) {
+                padding: 10px 14px;
+            }
+            
+            @media (max-width:850px) {
+                padding: 8px 12px;
+            }
+        }
+
+    }
+
+    .btn.btn-red{
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 12px;
+        font-size: 30px;
+
+        @media (max-width:1200px) {
+            font-size: 20px;
+        }
+
+        @media (max-width:1000px) {
+            font-size: 18px;
+            padding: 10px 14px;
+        }
+
+        @media (max-width:850px) {
+            font-size: 17px;
+            padding: 8px 12px;
+        }
+    }
+}
